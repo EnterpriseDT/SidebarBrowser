@@ -5,7 +5,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace CefSharp.MinimalExample.WinForms.Controls
+namespace SidebarBrowser.Controls
 {
 	public static class ControlExtensions
 	{

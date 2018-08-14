@@ -6,7 +6,9 @@ using System;
 using System.IO;
 using System.Windows.Forms;
 
-namespace CefSharp.MinimalExample.WinForms
+using CefSharp;
+
+namespace SidebarBrowser
 {
     public class Program
     {
