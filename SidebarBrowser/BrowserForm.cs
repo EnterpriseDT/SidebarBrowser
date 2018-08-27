@@ -375,5 +375,15 @@ namespace SidebarBrowser
         {
             Settings.Default.Save();
         }
+
+        private void BrowserForm_Activated(object sender, EventArgs e)
+        {
+            browser.Enabled = true;
+        }
+
+        private void BrowserForm_Deactivate(object sender, EventArgs e)
+        {
+            browser.Enabled = false;
+        }
     }
 }
