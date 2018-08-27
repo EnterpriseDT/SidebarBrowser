@@ -20,3 +20,7 @@ Currently the application is fairly primitive.  Obviously nice-to-haves are:
 * enable scaling (i.e. Ctrl-+ or Ctrl+wheel)
 * snap to edges other than the right edge of the main monitor
 * right-click menu a la Chrome
+
+Building
+--------
+Open SidebarBrowser.sln in Visual Studio (any edition that has C# support) and build the project.  It's possible you may need to download some CefSharp binaries.
